@@ -1,0 +1,38 @@
+html {
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+a,
+button{
+  .transition(~".3s color ease-in-out, .3s background-color ease-in-out, .3s opacity ease-in-out,.3s border ease-in-out");
+}
+
+a, a:hover, a:active, a:focus, .btn:focus {
+  outline: 0;
+}
+:focus {
+  outline: none;
+}
+a:focus {
+  text-decoration: none;
+}
+
+li {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+img{
+  max-width: 100%;
+}
+
+#fb-root {
+  display: none;
+}
+
+/* To fill the container and nothing else */
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+}

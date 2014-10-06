@@ -1,0 +1,33 @@
+{
+  "name": "vide",
+  "version": "0.1.3",
+  "homepage": "http://vodkabears.github.io/vide/",
+  "authors": [
+    "Ilya Makarov <dfrost.00@gmail.com>"
+  ],
+  "description": "Easy as hell jQuery plugin for video backgrounds.",
+  "main": [
+    "dist/jquery.vide.js",
+    "dist/jquery.vide.min.js"
+  ],
+  "ignore": [],
+  "keywords": [
+    "jquery",
+    "plugin",
+    "video",
+    "background",
+    "ui",
+    "responsive",
+    "declarative"
+  ],
+  "license": "MIT",
+  "_release": "0.1.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.1.3",
+    "commit": "2722ab65975c12f1fb280a0b161be8073a8b08cf"
+  },
+  "_source": "git://github.com/VodkaBears/Vide.git",
+  "_target": "~0.1.2",
+  "_originalSource": "vide"
+}

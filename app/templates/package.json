@@ -1,0 +1,89 @@
+{
+  "name": "booter",
+  "version": "0.1.0",
+  "author": "Peter PayteR Gašparík <payter86@gmail.com>",
+  "main": "./assets/js/main.js",
+  "browser": {
+    "jquery": "./assets/vendor/jquery/dist/jquery.min.js",
+    "bootstrap": "./assets/vendor/bootstrap/dist/js/bootstrap.min.js",
+    "modernizr": "./assets/vendor/modernizr/modernizr.js",
+    "owlcarousel": "./assets/vendor/owl.carousel/dist/owl.carousel.js",
+    "mousewheel": "./assets/vendor/jquery-mousewheel/jquery.mousewheel.min.js",
+    "mousewheelStopPropagation": "./assets/vendor/jquery-mousewheel-stop-propagation/mousewheelStopPropagation.js",
+    "breakpoints": "./assets/vendor/jquery.breakpoints2/breakpoints.js",
+    "textfill": "./assets/vendor/jquery-textfill/source/jquery.textfill.min.js",
+    "vide": "./assets/vendor/vide/dist/jquery.vide.min.js"
+  },
+  "browserify-shim": {
+    "jquery": {
+      "exports": "$"
+    },
+    "modernizr": {
+      "exports": "modernizr",
+      "depends": [
+        "jquery:$"
+      ]
+    },
+    "bootstrap": {
+      "exports": "bootstrap",
+      "depends": [
+        "jquery:$"
+      ]
+    },
+    "owlcarousel": {
+      "exports": "owlcarousel",
+      "depends": [
+        "bootstrap"
+      ]
+    },
+    "mousewheel": {
+      "exports": "mousewheel",
+      "depends": [
+        "bootstrap"
+      ]
+    },
+    "mousewheelStopPropagation": {
+      "exports": "mousewheelStopPropagation",
+      "depends": [
+        "bootstrap"
+      ]
+    },
+    "breakpoints": {
+      "exports": "breakpoints",
+      "depends": [
+        "bootstrap"
+      ]
+    },
+    "textfill": {
+      "exports": "textfill",
+      "depends": [
+        "bootstrap"
+      ]
+    },
+    "vide": {
+      "exports": "vide",
+      "depends": [
+        "bootstrap"
+      ]
+    }
+  },
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+  "dependencies": {
+    "browserify": "^6.0.2",
+    "browserify-shim": "^3.8.0",
+    "browser-sync": "^1.5.3",
+    "gulp": "^3.8.8",
+    "gulp-less": "^1.3.6",
+    "path": "^0.4.9",
+    "vinyl-source-stream": "^1.0.0",
+    "watchify": "^1.0.6"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "PerDente",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.2",
+    "owl.carousel": "*",
+    "modernizr": "~2.8.2",
+    "jquery-mousewheel": "~3.1.11",
+    "jquery-mousewheel-stop-propagation": "~1.2.0",
+    "animate.css": "~3.1.1",
+    "jquery.breakpoints2": "*",
+    "jquery-focuspoint": "~1.1.0",
+    "FitText.js": "*",
+    "jquery.boxfit": "~1.2.3",
+    "jquery-textfill": "~0.6.0",
+    "vide": "~0.1.2"
+  },
+  "devDependencies": {}
+}

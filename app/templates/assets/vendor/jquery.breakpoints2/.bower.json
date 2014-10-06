@@ -1,0 +1,13 @@
+{
+  "name": "jquery.breakpoints2",
+  "homepage": "https://github.com/PayteR/breakpoints",
+  "_release": "894b500d29",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "894b500d29094fd9727e93ca34e4fbbf8f3f395c"
+  },
+  "_source": "git://github.com/PayteR/breakpoints.git",
+  "_target": "*",
+  "_originalSource": "jquery.breakpoints2"
+}
