@@ -1,6 +1,6 @@
 {
   "name": "generator-booter",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Booter is base template with Bootstrap 3 framework and basic file structure with gulp, bower, browserify, LESS included",
   "license": "GNU GPL",
   "main": "app/index.js",
