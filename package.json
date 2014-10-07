@@ -1,15 +1,14 @@
 {
   "name": "generator-booter",
-  "version": "0.1.0",
-  "description": "Booter is base template with Bootstrap 3 FW and basic file structure with gulp, bower, browserify, LESS included",
+  "version": "0.1.2",
+  "description": "Booter is base template with Bootstrap 3 framework and basic file structure with gulp, bower, browserify, LESS included",
   "license": "GNU GPL",
   "main": "app/index.js",
-  "repository": "payter/generator-booter",
-  "author": {
-    "name": "Peter Payter Gašparík",
-    "email": "",
-    "url": "https://github.com/PayteR"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/payter/generator-booter"
   },
+  "author": "Peter Payter Gašparík (https://github.com/PayteR)",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -38,5 +37,12 @@
   },
   "peerDependencies": {
     "yo": ">=1.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/payter/generator-booter/issues"
+  },
+  "homepage": "https://github.com/payter/generator-booter",
+  "directories": {
+    "test": "test"
   }
 }

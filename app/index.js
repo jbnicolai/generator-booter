@@ -54,7 +54,7 @@ var BooterGenerator = yeoman.generators.Base.extend({
         projectfiles: function () {
             this.src.copy('bower.json', 'bower.json');
             this.src.copy('.bowerrc', '.bowerrc');
-            this.src.copy('.gitignore', '.gitignore');
+            this.src.copy('.gitignore', '.npmignore');
             this.src.copy('gulpfile.js', 'gulpfile.js');
             this.src.copy('index.html', 'index.html');
             this.src.copy('LICENSE', 'LICENSE');
