@@ -8,7 +8,7 @@ vagrantfile-local:
         cpus: '1'
         chosen_provider: virtualbox
         network:
-            private_network: 192.168.56.230
+            private_network: %option_ip%
             forwarded_port:
                 cxDUlGSctZuC:
                     host: '10800'
@@ -34,7 +34,7 @@ vagrantfile-local:
         synced_folder:
             yNGSH1shAaiK:
                 source: ./
-                target: /var/www/booter
+                target: /var/www/%option_name%
                 sync_type: default
                 rsync:
                     auto: 'false'
@@ -72,10 +72,10 @@ apache:
         - rewrite
     vhosts:
         dtgPtbhZbRhN:
-            servername: booter.dev
+            servername: %option_domain%
             serveraliases:
-                - '*.booter.dev'
-            docroot: /var/www/booter
+                - '*.%option_domain%'
+            docroot: /var/www/%option_name%
             port: '80'
             setenv:
                 - 'APP_ENV dev'
@@ -176,9 +176,9 @@ mysql:
         VzTMyKkicRJE:
             grant:
                 - ALL
-            name: booter_dev
+            name: %option_name%
             host: localhost
-            user: booter
+            user: %option_name%
             password: '123'
             sql_file: ''
 postgresql:

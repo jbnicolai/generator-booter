@@ -1,8 +1,8 @@
 {
   "name": "generator-booter",
-  "version": "0.0.0",
-  "description": "Yeoman generator",
-  "license": "MIT",
+  "version": "0.1.0",
+  "description": "Booter is base template with Bootstrap 3 FW and basic file structure with gulp, bower, browserify, LESS included",
+  "license": "GNU GPL",
   "main": "app/index.js",
   "repository": "payter/generator-booter",
   "author": {
@@ -20,7 +20,13 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "payter",
+    "less",
+    "bootstrap",
+    "gulp",
+    "browserify",
+    "bower"
   ],
   "dependencies": {
     "yeoman-generator": "^0.17.0",

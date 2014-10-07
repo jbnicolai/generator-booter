@@ -2,6 +2,7 @@
   "name": "booter",
   "version": "0.1.0",
   "author": "Peter PayteR Gašparík <payter86@gmail.com>",
+  "description": "",
   "main": "./assets/js/main.js",
   "browser": {
     "jquery": "./assets/vendor/jquery/dist/jquery.min.js",
